@@ -1,0 +1,14 @@
+{
+    "name": "native-requestify",
+    "version": "0.0.1",
+    "description": "Request library with native promises and callback",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "chetan acharekar <chetanacharekar4@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "querystring": "^0.2.0"
+    }
+}
