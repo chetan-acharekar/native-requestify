@@ -1,10 +1,12 @@
-#native-requestify
+#Project Title
+native-requestify
+```
 let Requestifier = require('requestifier');
 let requestifiterInstance = new Requestifier();
+```
 
-
-##options are expected in format
-
+options are expected in format
+```
 let options = {
     host: '', 
     port: '',
@@ -13,9 +15,10 @@ let options = {
     method: '',  // http methods ''GET,'POST','PUT'
     body: ''     // json which can be used to post 
 }
+```
 
-
-##using promise api
+using promise api
+```
 let httpPromise = requestifiterInstance.promise(options);
 
 httpPromise
@@ -25,19 +28,22 @@ httpPromise
     .catch((error) => {
 
     });
+```
 
-
-##using callback api
+using callback api
+```
 requestifiterInstance.callback(options, (error, result) => {
 
 });
+```
 
 
-
-##inside generator
+inside generator
+```
 function* () {
     let response = yield requestifier.promise(options);
 }
+```
 
 
 /* with async await*/
