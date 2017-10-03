@@ -1,6 +1,8 @@
 # native-requestify
 
-
+Why ?
+Performance of native packages is better than bluebird or Q.
+Freedom of selecting content type.
 
 ```
 let Requestifier = require('requestifier');
@@ -48,7 +50,7 @@ function* () {
 ```
 
 
-/* with async await*/
+ with async await
 ```
 async function () {
     let response = await requestifier.promise(options);
