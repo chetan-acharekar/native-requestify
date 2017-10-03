@@ -1,8 +1,9 @@
+#native-requestify
 let Requestifier = require('requestifier');
 let requestifiterInstance = new Requestifier();
 
 
-/*options are expected in format*/
+##options are expected in format
 
 let options = {
     host: '', 
@@ -14,7 +15,7 @@ let options = {
 }
 
 
-/*using promise api*/
+##using promise api
 let httpPromise = requestifiterInstance.promise(options);
 
 httpPromise
@@ -26,14 +27,14 @@ httpPromise
     });
 
 
-/*using callback api*/
+##using callback api
 requestifiterInstance.callback(options, (error, result) => {
 
 });
 
 
 
-/* inside generator*/
+##inside generator
 function* () {
     let response = yield requestifier.promise(options);
 }
