@@ -1,5 +1,7 @@
-#Project Title
+# Project Title
+
 native-requestify
+
 ```
 let Requestifier = require('requestifier');
 let requestifiterInstance = new Requestifier();
@@ -47,7 +49,8 @@ function* () {
 
 
 /* with async await*/
-
+```
 async function () {
     let response = await requestifier.promise(options);
 }
+```
