@@ -3,6 +3,7 @@
 Why ?
 Performance of native packages is better than bluebird or Q.
 Freedom of selecting content type.
+Also single library which works for both callback and promises.
 
 ```
 let Requestifier = require('requestifier');
