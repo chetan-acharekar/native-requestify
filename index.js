@@ -1,3 +1,5 @@
+const http = require('http');
+
 class requestifier {
 
     constructor() {
@@ -81,7 +83,7 @@ class requestifier {
      */
     parseParameters(body, contentType) {
         let result = null;
-        let contentType = '';
+        contentType = contentType ? contentType : '';
         switch (contentType) {
             case 'application/json':
                 result = JSON.stringify(body);
