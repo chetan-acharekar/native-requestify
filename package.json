@@ -1,6 +1,6 @@
 {
   "name": "native-requestify",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Request library with native promises and callback",
   "main": "index.js",
   "scripts": {
