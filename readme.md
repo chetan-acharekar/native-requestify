@@ -46,7 +46,7 @@ requestifiterInstance.callback(options, (error, result) => {
 inside generator
 ```
 function* () {
-    let response = yield requestifier.promise(options);
+    let response = yield requestifiterInstance.promise(options);
 }
 ```
 
@@ -54,6 +54,6 @@ function* () {
  with async await
 ```
 async function () {
-    let response = await requestifier.promise(options);
+    let response = await requestifiterInstance.promise(options);
 }
 ```
