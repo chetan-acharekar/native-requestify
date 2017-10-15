@@ -57,3 +57,4 @@ async function () {
     let response = await requestifiterInstance.promise(options);
 }
 ```
+Sample example is available in exmaple.js
