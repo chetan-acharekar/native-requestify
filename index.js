@@ -6,6 +6,9 @@ class requestifier {
 
     }
 
+    promiseArray(promises) {
+     return Promise.all(promises);
+    }
     /**
      * callback function to be executed on data retrival
      * type is error first
